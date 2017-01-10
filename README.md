@@ -42,6 +42,18 @@ To test your setup, run the tests for each exercise on the command line once you
 ## Prerequisites
 * A text editor of your choosing. I like Atom, but you do you.
 
+To use docker for all the languages:
+
+```
+docker run -it -v `pwd`/7-languages:/7-languages/ clojure bash
+docker run -it -v `pwd`/7-languages:/7-languages/ hseeberger/scala-sbt bash
+docker run -it -v `pwd`/7-languages:/7-languages/ schickling/rust bash
+docker run -it -v `pwd`/7-languages:/7-languages/ elixir bash
+docker run -it -v `pwd`/7-languages:/7-languages/ ruby bash
+docker run -it -v `pwd`/7-languages:/7-languages/ haskell bash
+docker run -it -v `pwd`/7-languages:/7-languages/ golang bash
+```
+
 ### Ruby
 * ruby 2.1.5 (https://www.ruby-lang.org/en/documentation/installation/)
 * rubygems 2.2.2 (https://rubygems.org/pages/download)
